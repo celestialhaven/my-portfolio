@@ -103,4 +103,8 @@
     .contact-info p {
         text-align: center;
     }
+
+    .featured-work h2 {
+        text-align: left;
+    }
 }
