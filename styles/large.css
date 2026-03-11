@@ -1,0 +1,113 @@
+@media screen and (min-width: 1366px) {
+    .content-container {
+        flex-direction: row;
+        padding: 50px;
+        gap: 50px;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+        width: 10%;
+    }
+
+    .social-icons {
+        flex-direction: column;
+    }
+
+    .scroll-text {
+        display: block;
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        color: #bdbdbd;
+        font-size: 0.75rem;
+    }
+
+    .bio-container {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .hero-text {
+        align-items: flex-start;
+        width: 60%;
+        padding-top: 0;
+    }
+
+    .hero-image img {
+        max-height: 650px;
+    }
+
+    .hero-text h1 {
+        font-size: 50px;
+    }
+
+     .hero-text p {
+        font-size: 18px;
+    }
+
+    h1,
+    .hero-text p {
+        text-align: left;
+    }
+
+    .about-contents {
+        flex-direction: row;
+    }
+
+    .about-contents h2, h3, p {
+        text-align: left;
+    }
+
+    .featured-work {
+        margin-top: 200px;
+    }
+
+    .my-skills, .contact-me {
+        margin-top: 200px;
+    }
+
+    .about-me {
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .files-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .about-me-details p {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .contact-section p {
+       text-align: center;
+    }
+
+    .footer-icon {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-info p {
+        text-align: center;
+    }
+
+    .featured-work h2 {
+        text-align: left;
+    }
+}

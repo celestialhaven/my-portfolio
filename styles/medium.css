@@ -1,0 +1,80 @@
+/* medium.css */
+
+@media screen and (min-width: 768px) {
+
+    .inner-container {
+        width: 80%;
+    }
+
+    .about-container {
+        margin: 0 auto;
+    }
+
+    .about-me {
+        flex-direction: column;
+        width: 100%;
+        gap: 50px;
+    }
+
+    .about-image img {
+        width: 300px;
+        height: 350px;
+    }
+
+    h1,
+    h2,
+    h3,
+    .hero-text p,
+    p {
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .featured-work h2 {
+        text-align: left;
+    }
+
+    .card-link .card-title {
+        font-size: 20px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: block;
+    }
+
+    .about-contents h2,
+    h3,
+    p {
+        text-align: left;
+    }
+
+    .featured-work {
+        margin-top: 120px;
+    }
+
+    .featured-work h2 {
+        text-align: center;
+    }
+
+    .my-skills, .contact-me {
+        margin-top: 120px;
+    }
+
+    .about-me-details h2, h3, p {
+        text-align: center;
+    }
+
+    .about-me-details p {
+        display: block;
+        margin: 20px auto;
+        width: 100%;
+    }
+}
