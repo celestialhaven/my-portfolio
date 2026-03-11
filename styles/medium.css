@@ -1,6 +1,11 @@
 /* medium.css */
 
 @media screen and (min-width: 768px) {
+
+    .inner-container {
+        width: 80%;
+    }
+    
     .about-container {
         margin: 0 auto;
     }
@@ -72,4 +77,5 @@
         margin: 20px auto;
         width: 100%;
     }
+
 }
