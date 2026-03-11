@@ -8,7 +8,7 @@
 }
 
 .inner-container {
-    width: 80%;
+    width: 95%;
     padding: 10px;
     border-radius: 20px;
     box-sizing: border-box;
@@ -670,4 +670,5 @@ html {
 
 .contact-info strong {
     font-weight: 600;
+
 }
